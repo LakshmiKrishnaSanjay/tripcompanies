@@ -1,0 +1,63 @@
+<?php
+declare(strict_types=1);
+
+/** Home hero slides. Slides with a feature key appear only while that flag is true. */
+return [
+    [
+        'eyebrow' => 'Winter holidays',
+        'title' => 'Holiday packages from Dubai',
+        'emphasis' => 'Dubai',
+        'text' => 'Yerevan, Baku, Georgia and Almaty. Winter routes for people living in the UAE.',
+        'image' => 'https://commons.wikimedia.org/wiki/Special:FilePath/Charyn_Canyon.jpg?width=2400',
+        'alt' => 'Charyn Canyon in Kazakhstan',
+        'href' => '/deals/winter-escapes',
+        'cta' => 'View winter holidays',
+        'is_sample' => true,
+    ],
+    [
+        'eyebrow' => 'Spring departures',
+        'title' => 'Istanbul and the city breaks',
+        'emphasis' => 'Istanbul',
+        'text' => 'Istanbul, Cappadocia, Baku, Singapore and Kuala Lumpur, planned from Dubai.',
+        'image' => 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&fm=webp&q=75&w=2400',
+        'alt' => 'The Galata Tower and rooftops of Istanbul, Turkey',
+        'href' => '/deals/spring-departures',
+        'cta' => 'View spring holidays',
+        'is_sample' => true,
+    ],
+    [
+        'eyebrow' => 'Safari',
+        'title' => 'Kenya, from the UAE',
+        'emphasis' => 'Kenya',
+        'text' => 'Nairobi and the Maasai Mara, or a longer route through Nakuru and Amboseli.',
+        'image' => 'https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?auto=format&fit=crop&fm=webp&q=75&w=2400',
+        'alt' => 'Wildebeest on the grassland in Kenya',
+        'href' => '/destinations/kenya',
+        'cta' => 'See Kenya holidays',
+        'is_sample' => true,
+    ],
+    [
+        'eyebrow' => 'Visiting the UAE',
+        'title' => 'Things to do in Dubai',
+        'emphasis' => 'Dubai',
+        'text' => 'Desert light, creek mornings and a skyline evening, paced for travellers arriving in the UAE.',
+        'image' => 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&fm=webp&q=75&w=2400',
+        'alt' => 'Dubai skyline along the water at blue hour',
+        'href' => '/inbound',
+        'cta' => 'Explore UAE experiences',
+        'feature' => 'inbound',
+        'is_sample' => true,
+    ],
+    [
+        'eyebrow' => 'Visa desk',
+        'title' => 'Visa services from Dubai',
+        'emphasis' => 'Visa',
+        'text' => 'We prepare the file with you. The authority that receives it makes the decision.',
+        'image' => 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&fm=webp&q=75&w=2400',
+        'alt' => 'Aircraft wing above the clouds',
+        'href' => '/visa',
+        'cta' => 'See visa services',
+        'feature' => 'visa',
+        'is_sample' => true,
+    ],
+];

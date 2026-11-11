@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 66" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Tripcompanies</title>
+  <defs>
+    <mask id="pin-hole">
+      <rect width="100%" height="100%" fill="#fff"/>
+      <circle cx="50" cy="26" r="4.7" fill="#000"/>
+    </mask>
+  </defs>
+  <g fill="#EC0A44" stroke="#EC0A44" mask="url(#pin-hole)">
+    <rect x="7" y="5" width="13" height="48" rx="6.5"/>
+    <path d="M18 15c12-7 30-6 30 10 0 12-2 18-4 24" fill="none" stroke-width="12" stroke-linecap="round"/>
+    <path d="M42 36 18 58" fill="none" stroke-width="3.6" stroke-linecap="round"/>
+    <circle cx="50" cy="26" r="9"/>
+  </g>
+  <path fill="#EC0A44" transform="translate(49.2 25.2) rotate(32) scale(0.42)" d="M0-8.2 1.7-1.6 7.2-.2 7.2 1.3 1.7 1.5 1.2 5.2 2.7 6.4 2.7 7.5 0 6.6-2.7 7.5-2.7 6.4-1.2 5.2-1.7 1.5-7.2 1.3-7.2-.2-1.7-1.6z"/>
+  <circle cx="54" cy="30" r="1.15" fill="#EC0A44"/>
+</svg>

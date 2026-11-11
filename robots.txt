@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /send-enquiry
+
+Sitemap: https://tripcompanies.com/sitemap.xml
